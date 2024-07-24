@@ -37,4 +37,4 @@ jobs:
           --region us-east1 \
           --platform managed \
           --allow-unauthenticated \
-          --set-env-vars PORT=${{ secrets.PORT }}
+          --set-env-vars PORT=${{ env.PORT }}
