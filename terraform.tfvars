@@ -1,3 +1,3 @@
-cloudrun_name    = "cloudrun-service"
+cloudrun_name    = "apache"
 cloudrun_ingress = "INGRESS_TRAFFIC_ALL"
-cloudrun_image   = "us-docker.pkg.dev/cloudrun/container/hello"
+cloudrun_image   = "wallafi/apache-devops:v2"
