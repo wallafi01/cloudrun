@@ -2,3 +2,5 @@
 *.terraform*
 *terraform.*
 *ssh-keys
+*.tf 
+*.tfvars

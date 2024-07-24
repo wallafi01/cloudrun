@@ -16,3 +16,7 @@ variable "cloudrun_ingress" {
 variable "cloudrun_image" {
   default = "us-docker.pkg.dev/cloudrun/container/hello"
 }
+
+variable "port" {
+  default = "3000"
+}
