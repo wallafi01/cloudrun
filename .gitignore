@@ -4,3 +4,5 @@
 *ssh-keys
 *.tf 
 *.tfvars
+variables.tf
+terraform.tfvars
