@@ -3,7 +3,7 @@ FROM ubuntu:latest
 
 RUN apt update && apt install -y apache2 apache2-utils && apt clean
 
-COPY ./site/ /var/www/html/
+COPY . /var/www/html/
 
 
 ENV PORT 3000
