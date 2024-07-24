@@ -1,9 +1,9 @@
 variable "project_id" {
-  default = "gke-dev-430318"
+  default = "idea-stresstest"
 }
 
 variable "region" {
-  default = "us-central1"
+  default = "us-east1"
 }
 
 variable "cloudrun_name" {
